@@ -18,7 +18,6 @@ public class HealthcareWorkerTeam implements HealthcareServiceable {
             member.service();
         }
     };
-
     public double getPrice() {
         double price = 0;
         for(HealthcareServiceable member: members){
